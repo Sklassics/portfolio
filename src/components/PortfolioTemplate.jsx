@@ -3418,30 +3418,34 @@ const handleSavePersonal = () => {
 <div className="mt-1">
 
 
-  <div className="w-full mt-10">
+  <div className="w-full mt-30">
     <h1 className="text-center font-bold text-black text-3xl">{contactheading}</h1>
     <h2 className="text-center font-lg text-black text-xl mt-5">{contacttext}</h2>
   </div>
-  <div className="w-full">
-    <div className="text-black font-bold text-left text-xl">{contactname}</div>
-    <div className="text-blue font-bold text-left text-xl">{phone}</div>
-    <h1 className="text-black text-left font-md">{contactnum}</h1>
-    <h1 className="text-black text-left font-md">{contactmail}</h1>
-    <div className="text-blue font-bold text-right text-xl">{adr}</div>
-    <h1 className="text-black text-right font-md">{contactaddress}</h1>
-    <h1 className="text-black text-right font-md">{contactstreet}</h1>
+  <div className="w-full max-w-2xl mx-auto bg-white border border-gray-300 p-6 rounded-lg shadow-lg mt-20">
+  {/* Contact Name at the Top */}
+  <div className="text-black font-bold text-2xl mb-6 text-left">{contactname}</div>
 
+  {/* Two Columns: Phone and Address */}
+  <div className="flex justify-between items-start">
+    {/* Left side */}
+    <div className="text-left space-y-2">
+      <div className="text-blue-500 font-bold text-xl">{phone}</div>
+      <h1 className="text-black font-medium">{contactnum}</h1>
+      <h1 className="text-black font-medium">{contactmail}</h1>
+    </div>
 
-
+    {/* Right side */}
+    <div className="text-right space-y-2 ">
+      <div className="text-blue-500 font-bold text-xl">{adr}</div>
+      <h1 className="text-black font-medium">{contactaddress}</h1>
+      <h1 className="text-black font-medium">{contactstreet}</h1>
+    </div>
   </div>
-
-
-
-
-
-  
 </div>
 
+
+</div>
 
 
 
