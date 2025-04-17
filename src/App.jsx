@@ -32,13 +32,13 @@ export const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Final />} />
+        <Route path="/final" element={<Final />} />
         <Route path="/login" element={<LoginPage setIsAuthenticated={setIsAuthenticated} />} />
         <Route path="/register" element={<Register />} />
         
         {/* Protected Route for /temp */}
         <Route path="/temp" element={isAuthenticated ? <TemplateSelection /> : <Navigate to="/login" />} />
-        <Route path="/portfolio" element={<PortfolioTemplate />} />
+        <Route path="/" element={<PortfolioTemplate />} />
 
         <Route path="/res" element={<Research />} />
         <Route path="/published" element={<Portfoliofinal />} />
