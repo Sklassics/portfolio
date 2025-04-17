@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -10.5px; /* Adjust if needed */
+  }
+  
+  .blinking-cursor {
+    font-weight: 400;
+    font-size: 48px;
+    color: black;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

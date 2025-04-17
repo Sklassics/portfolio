@@ -1,0 +1,50 @@
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -0.5px; /* Adjust if needed */
+  }
+  body {
+    font-weight: 400;
+      margin: 0;
+      padding: 0;
+      background-color: transparent; /* Or remove this if it conflicts */
+
+  }
+  
+
+ .backgroundImage {
+
+    custom-radial:'radial-gradient(80.1% 100% at 50% 0%, rgba(38, 140, 245, 0.25) 0%, rgba(38, 140, 245, 0) 100%)';
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
